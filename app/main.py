@@ -21,8 +21,9 @@ from housing_studio.validation import collect_warnings, design_metrics
 from housing_studio.version import __version__
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_GENERATED_ROOT = Path.home() / ".local" / "share" / "housing-studio" / "generated"
 GENERATED_ROOT = Path(
-    os.getenv("HOUSING_GENERATED_DIR", str(PROJECT_ROOT / "generated"))
+    os.getenv("HOUSING_GENERATED_DIR", str(DEFAULT_GENERATED_ROOT))
 ).resolve()
 GENERATED_ROOT.mkdir(parents=True, exist_ok=True)
 

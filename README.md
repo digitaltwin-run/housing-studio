@@ -66,6 +66,10 @@ python -m pip install -e ".[llm]"
 python generator.py --serve
 ```
 
+Web API zapisuje wyniki domyślnie w
+`~/.local/share/housing-studio/generated`. Zmienna `HOUSING_GENERATED_DIR`
+pozwala wskazać wolumen lub inny katalog roboczy.
+
 Następnie otwórz:
 
 ```text
