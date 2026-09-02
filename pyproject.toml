@@ -43,6 +43,9 @@ py-modules = ["generator"]
 where = ["."]
 include = ["housing_studio*", "app*"]
 
+[tool.setuptools.package-data]
+app = ["static/*", "templates/*"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
