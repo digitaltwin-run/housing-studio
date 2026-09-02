@@ -1,5 +1,10 @@
 # Housing Studio 1.2.1 - generator obudowy 2D/3D
 
+Samodzielny komponent TwinStudio rozwijany w repozytorium
+`digitaltwin-run/housing-studio`. Udostępnia publiczny pakiet
+`housing_studio`, CLI i API; nie importuje Viewera ani TwinStudio. Kod jest
+licencjonowany na Apache-2.0.
+
 Housing Studio jest gotowym projektem Python do parametrycznego generowania dwuczęściowej obudowy Raspberry Pi 5. Z jednej zwalidowanej konfiguracji tworzy:
 
 - bryły 3D podstawy i klapy,
